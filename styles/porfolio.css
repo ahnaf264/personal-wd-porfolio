@@ -1,0 +1,89 @@
+
+.roboto-condensed-font{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50 px 200px;
+    margin-left: 230px;
+}
+
+.text-mod{
+    color: darkred;
+}
+.nav-colors{
+    color: #474747;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: darkred;
+    font-weight:bold ;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+/* banner */
+
+.banner-greetings{
+font-size: 45;
+font-weight: 600;
+color: #474747;
+
+}
+.bannner-title{
+    font-size: 85;
+    font-weight: 800;
+    color: #181818;
+}
+.para-color{
+    font-size: 18;
+    color: #757575;
+    justify-content: center;
+max-width: 580px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.photo{
+    height: 676px;
+    width: 584px;
+}
